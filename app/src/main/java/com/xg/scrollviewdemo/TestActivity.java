@@ -27,6 +27,7 @@ public class TestActivity extends AppCompatActivity {
 
         mStickyScrollView = (StickyScrollView)findViewById(R.id.scroll_view);
         mStickyView2 = findViewById(R.id.sticky2);
+
         mPlaceholderView2 = findViewById(R.id.placeholder2);
 
         mCallbacks2 = new StickyScrollViewCallbacks(mStickyView2, mPlaceholderView2,
